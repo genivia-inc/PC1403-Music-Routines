@@ -17,6 +17,9 @@ Alternatively, on a 16K expanded PC-1350 with CE-202M RAM card, you can load
 the `play.bas` bootloader via SIO and `RUN` it to save the code.  `CALL 24808`
 after `RUN`.
 
+For best sound quality, use the cassette interface output to attach a speaker,
+e.g. a pair of inexpensive desktop PC speakers will do.
+
 
 PORTING TO OTHER SHARP PC
 -------------------------
@@ -69,7 +72,7 @@ is ignored.
 3) EFFECTS
 
 You can use the Fxx command anywhere to set the tempo. Valid values are
-&06..$1F.  Global tempo setting is also used, but BPM is ignored (so best don't
+$06..$1F.  Global tempo setting is also used, but BPM is ignored (so best don't
 change it).
 
 You can use special command E5x to detune notes (E58 = no detune).
