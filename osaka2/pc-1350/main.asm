@@ -1,4 +1,4 @@
-;osaka II beeper engine for sharp pc-1403
+;osaka II beeper engine for SHARP PC
 ;version 1.0 by utz 07'2014
 ;2 channels pulse-interleaving square wave sound + pwm drums
 
