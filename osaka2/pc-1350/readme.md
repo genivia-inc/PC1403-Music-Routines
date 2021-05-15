@@ -1,10 +1,10 @@
 Osaka-II Music Routine for Sharp PC-1350 and PC-1403(H)
-by utz 07/2014
-updated by Robert van Engelen 5/2021 to support AS61860 and PC-1350
+=======================================================
+by utz 07/2014 updated by Robert van Engelen 5/2021 for PC-1350
 
 
 USAGE FOR THE PC-1350
-=====================
+---------------------
 
 To load the program on your PC-1350, convert `play.bin` to `play.wav` with
 `bin2wav --type=bin --addr=24808 --pc=1350 play.bin` using the `bin2wav`
@@ -19,7 +19,7 @@ after `RUN`.
 
 
 PORTING TO OTHER SHARP PC
-=========================
+-------------------------
 
 If you want to rebuild the binary or the BASIC bootloader for another SHARP
 Pocket Computer, then you will need to install and run the AS61860 assembler
@@ -40,7 +40,7 @@ with sufficient memory.
 
 
 CONVERTING XM TO ASM
-====================
+--------------------
 
 Invoking the xm2osk utility will convert your `music.xm` to an `.asm` file
 containing the music data. By adding the `-v` command line parameter, you can
@@ -48,7 +48,7 @@ get xm2osk to print some debug info.
 
 
 COMPOSING MUSIC
-===============
+---------------
 
 Use the `music.xm` template to compose music in any standard XM editor, eg.
 Milkytracker.  The sound of the template is only a very rough approximation of
